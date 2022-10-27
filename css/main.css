@@ -106,17 +106,17 @@ h2 {
 
 nav {
   justify-content: center;
-  width: 75%;
+  width: 8%;
   position: fixed;
   bottom: 0%;
   height: 60px;
   background-color: rgb(177, 177, 177);
-  border-radius: 10px;
+  border-radius: 40px;
   left: 0;
   right: 0;
   z-index: 99;
   text-align: center;
-  margin: 20px auto;
+  margin: 30px auto;
   max-width: 400px;
 }
 nav i {
