@@ -1,20 +1,10 @@
 body,
-html 
-{
-	margin:0px;
-	font-family:helvetica;
-	overflow-x:hidden;
-	height:100%;
-	background: rgb(255, 255, 255) url(https://www.sachcharak.com/bg/Backgroud.png) no-repeat;
-  background-size: 100%;
-            width: 100%;
-            height: 100%;
-}
+html {
   margin: 0px;
   padding: 0px;
   font-family: helvetica;
-  background-color: #111;
-  color: #fff;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 a {
   text-decoration: none;
@@ -116,17 +106,17 @@ h2 {
 
 nav {
   justify-content: center;
-  width: 75%;
+  width: 35%;
   position: fixed;
   bottom: 0%;
-  height: 60px;
-  background-color: #222;
-  border-radius: 10px;
+  height: 65px;
+  background-color: rgb(177, 177, 177);
+  border-radius: 40px;
   left: 0;
   right: 0;
   z-index: 99;
   text-align: center;
-  margin: 20px auto;
+  margin: 30px auto;
   max-width: 400px;
 }
 nav i {
@@ -146,11 +136,11 @@ a {
 }
 .profile {
   width: 100vw;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   height: 90px;
 }
 .profile:hover {
-  background-color: #ffffff;
+  background-color: rgb(144, 144, 144);
 }
 .profile img {
   width: 80px;
